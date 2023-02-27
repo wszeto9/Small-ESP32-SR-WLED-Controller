@@ -56,22 +56,8 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|125386904|84332142|b6c11da8-eedb-4980-9b83-c59f8adf0583|1d12f65e-74f2-4f76-93fb-1692907aa8a0",
-        "copper_edge_clearance|125789404|84289285|10004319-97c6-422b-b8ce-7f5a3a8eee61|1d12f65e-74f2-4f76-93fb-1692907aa8a0",
-        "courtyards_overlap|127829999|81176001|9a87bfc4-c304-4037-8ceb-f6545574a9e8|ed2d9950-a407-48f2-a675-836582761125",
-        "silk_over_copper|125180000|64000000|771fea1e-12be-4af6-b61d-32f5cef1d895|8980b2ef-e317-4c3e-8e48-2ac45a860dce",
-        "silk_over_copper|125180000|64200000|d65293cb-eb05-4cd1-ae8d-51e2904bf5bb|8980b2ef-e317-4c3e-8e48-2ac45a860dce",
-        "silk_over_copper|125180000|64300000|771fea1e-12be-4af6-b61d-32f5cef1d895|8980b2ef-e317-4c3e-8e48-2ac45a860dce",
-        "silk_over_copper|143420000|64000000|771fea1e-12be-4af6-b61d-32f5cef1d895|6b3e79fb-a467-4c3d-ab9f-5a6c20a20840",
-        "silk_over_copper|143420000|64200002|d65293cb-eb05-4cd1-ae8d-51e2904bf5bb|6b3e79fb-a467-4c3d-ab9f-5a6c20a20840",
-        "silk_over_copper|143420000|64300000|771fea1e-12be-4af6-b61d-32f5cef1d895|6b3e79fb-a467-4c3d-ab9f-5a6c20a20840",
-        "silk_overlap|129240531|65113910|0f7cf1c6-fb4b-41b4-9d99-e70cd7cab28b|fc60df1e-cc46-484e-9eab-34f535b2bbce",
-        "silk_overlap|129240531|65113910|fc60df1e-cc46-484e-9eab-34f535b2bbce|0f7cf1c6-fb4b-41b4-9d99-e70cd7cab28b",
-        "silk_overlap|129250000|68565000|5d47f203-8354-4bdf-8846-3de174e09272|a8734673-9c56-4940-8aa8-4da8a2a08c68",
-        "silk_overlap|129250000|68565000|a8734673-9c56-4940-8aa8-4da8a2a08c68|5d47f203-8354-4bdf-8846-3de174e09272",
-        "silk_overlap|129250000|71990000|cda268fb-f5aa-4bf7-be05-db27baba4437|f810abee-f81c-4312-8998-3e1173a73b92",
-        "silk_overlap|129250000|75415000|32168546-2233-4870-af71-3ad4497f95b9|e16c9e0c-2f0d-466c-a964-a71021140c4f",
-        "silk_overlap|129250000|75415000|e16c9e0c-2f0d-466c-a964-a71021140c4f|32168546-2233-4870-af71-3ad4497f95b9"
+        "silk_over_copper|122880000|82604013|b194a5f3-2ea8-4b52-992c-b4253723fa8f|af95262a-3a70-47d1-b7ff-17f39325962e",
+        "silk_over_copper|131820000|82604013|b194a5f3-2ea8-4b52-992c-b4253723fa8f|80adcd55-4e61-4b7a-986c-2640a28dc52c"
       ],
       "meta": {
         "version": 2
@@ -120,17 +106,17 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.08889999999999999,
-        "min_copper_edge_clearance": 0.19999999999999998,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.25,
+        "min_clearance": 0.15239999999999998,
+        "min_copper_edge_clearance": 0.3,
+        "min_hole_clearance": 0.3,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.08889999999999999,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.44999999999999996,
+        "min_through_hole_diameter": 0.381,
+        "min_track_width": 0.15239999999999998,
+        "min_via_annular_width": 0.127,
+        "min_via_diameter": 0.15,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
@@ -149,12 +135,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.2
-        },
-        {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.635,
+          "drill": 0.381
         }
       ],
       "zones_allow_external_fillets": false,
@@ -379,14 +365,14 @@
     ]
   },
   "meta": {
-    "filename": "ESP32-Small-SRWLED.kicad_pro",
+    "filename": "USB-Serial-Mezzamine-Conn.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.0889,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -396,9 +382,30 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.0889,
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
+        "track_width": 0.1524,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.77,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "nets": [
+          "/USB_N",
+          "/USB_P"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1524,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
@@ -413,7 +420,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "ESP32-Small-SRWLED.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
